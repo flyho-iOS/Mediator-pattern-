@@ -15,6 +15,7 @@
 @property (nonatomic,strong) AbstractMediator *mediator;
 @property (nonatomic,copy)   NSString *name;
 
+//委托中介办事
 - (void) entrustMediator:(AbstractMediator *)mediator;
 
 @end
