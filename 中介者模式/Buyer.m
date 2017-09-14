@@ -7,12 +7,12 @@
 //
 
 #import "Buyer.h"
-#import "AbstractMediator.h"
-
+#import "MediatorLJ.h"
 @implementation Buyer
 
 - (void)buyHouse {
-    [self.mediator screenHouseForBuyer:self];
+    //mediator属性是从抽象类继承过来，这里要声明一下mediator属性的类型
+    [(MediatorLJ *)(self.mediator) screenHouseForBuyer:self];
 }
 
 @end

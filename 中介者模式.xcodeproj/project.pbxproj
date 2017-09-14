@@ -76,10 +76,10 @@
 				67E10A1A1F69889100E30325 /* AbstractClient.m */,
 				67E10A1B1F69889100E30325 /* AbstractMediator.h */,
 				67E10A1C1F69889100E30325 /* AbstractMediator.m */,
-				67E10A1D1F69889100E30325 /* Buyer.h */,
-				67E10A1E1F69889100E30325 /* Buyer.m */,
 				67E10A1F1F69889100E30325 /* MediatorLJ.h */,
 				67E10A201F69889100E30325 /* MediatorLJ.m */,
+				67E10A1D1F69889100E30325 /* Buyer.h */,
+				67E10A1E1F69889100E30325 /* Buyer.m */,
 				67E10A211F69889100E30325 /* Seller.h */,
 				67E10A221F69889100E30325 /* Seller.m */,
 				67E10A121F69884800E30325 /* main.m */,
@@ -278,6 +278,7 @@
 				67E10A181F69884800E30325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

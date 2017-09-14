@@ -12,6 +12,17 @@
 
 @implementation MediatorLJ
 
-
+- (void) screenHouseForBuyer:(Buyer *)buyer {
+    for (AbstractClient *client in self.clients) {
+        if ([client isKindOfClass:[Seller class]]) {
+            Seller *seller = (Seller *)client;
+            if (seller.price > buyer.money) {
+                NSLog(@"%@买不起%@的房子，不把%@介绍给%@",buyer.name,seller.name,seller.name,buyer.name);
+            }else{
+                NSLog(@"%@买得起%@的房子，把%@介绍给%@",buyer.name,seller.name,seller.name,buyer.name);
+            }
+        }
+    }
+}
 
 @end

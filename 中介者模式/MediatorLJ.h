@@ -10,8 +10,10 @@
 
 //MediatorLJ作为具体的中介者类
 @class Buyer;
-@class Seller;
+
 @interface MediatorLJ : AbstractMediator
 
+//为买家筛选房源
+- (void) screenHouseForBuyer:(Buyer *)buyer;
 
 @end
